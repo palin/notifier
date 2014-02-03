@@ -28,6 +28,12 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'haml'
+gem 'haml_coffee_assets'
+gem 'non-stupid-digest-assets'
+
+group :production, :staging do
+  gem 'rails_12factor'
+end
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
