@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: notifier_development
+  pool: 5
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: notifier_test
+  pool: 5
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: notifier_staging
+  pool: 5
+smoke:
+  adapter: postgresql
+  encoding: unicode
+  database: notifier_smoke
+  pool: 5
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: notifier_production
+  pool: 5
